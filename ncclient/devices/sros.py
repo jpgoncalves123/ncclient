@@ -30,8 +30,8 @@ class SrosDeviceHandler(DefaultDeviceHandler):
             'urn:ietf:params:xml:ns:netconf:base:1.0',
             'urn:ietf:params:xml:ns:yang:1',
             'urn:ietf:params:netconf:capability:confirmed-commit:1.1',
-            'urn:ietf:params:netconf:capability:validate:1.1', 
-            'urn:nokia.com:nc:pc']
+            'urn:ietf:params:netconf:capability:validate:1.1']
+            #'urn:nokia.com:nc:pc']
         return base + additional
 
     def get_xml_base_namespace_dict(self):
